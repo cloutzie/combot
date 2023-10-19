@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "combot"
+version = "0.1.0"
+description = ""
+authors = ["Walker <cloutzie@shwalker.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+minedojo = "^0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
